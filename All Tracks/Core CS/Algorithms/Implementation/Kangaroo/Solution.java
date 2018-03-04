@@ -23,8 +23,8 @@ public class Solution {
 		int x2 = sc.nextInt();
 		int v2 = sc.nextInt();
 		sc.close();
-            
-        System.out.println((v1 <= v2 || (x2 - x1) % (v1 - v2) != 0) ? "NO" : "YES");
+
+		System.out.println((v1 <= v2 || (x2 - x1) % (v1 - v2) != 0) ? "NO" : "YES");
             
 	}
 }
