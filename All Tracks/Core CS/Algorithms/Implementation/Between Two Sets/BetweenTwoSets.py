@@ -2,6 +2,7 @@
 
 import sys
 
+from functools import reduce
 from math import gcd
 
 '''
