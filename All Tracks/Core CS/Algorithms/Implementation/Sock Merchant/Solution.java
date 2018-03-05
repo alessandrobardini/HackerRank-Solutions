@@ -19,26 +19,25 @@ public class Solution {
     static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		
+
 		int n = sc.nextInt();
-		
-		
+
 		int pairOfSocks = 0;
 		boolean[] isEven = new boolean[101];
-        Arrays.fill(isEven, Boolean.TRUE);
-		
+		Arrays.fill(isEven, Boolean.TRUE);
+
 		for (int i = 0; i < n; i++) {
-            int currentColor = sc.nextInt();
-			if(isEven[currentColor]){
+			int currentColor = sc.nextInt();
+			if (isEven[currentColor]) {
 				isEven[currentColor] = false;
-			}else{
+			} else {
 				isEven[currentColor] = true;
 				pairOfSocks++;
 			}
 		}
-        
-        sc.close();
-		
+
+		sc.close();
+
 		System.out.println(pairOfSocks);
 	}
 }
