@@ -7,10 +7,10 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /*
-	1) Find the gcd G of the second set
-	2) Find the lcm L of the first set
-	3) Find the divisors D of G 
-	4) The result is the number of times that an element of D is divisible by L
+ * 1) Find the gcd G of the second set
+ * 2) Find the lcm L of the first set
+ * 3) Find the divisors D of G 
+ * 4) The result is the number of times that an element of D is divisible by L
  */
 
 public class Solution {
