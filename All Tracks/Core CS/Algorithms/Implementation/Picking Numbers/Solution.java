@@ -27,15 +27,16 @@ import java.util.regex.*;
 
 public class Solution {
 
-    static Scanner sc = new Scanner(System.in);
-
 	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
 		int[] freq = new int[100];
 		for (int i = 0; i < n; i++) {
 			freq[sc.nextInt()] += 1;
 		}
+		sc.close();
 		int max = 0;
 		for (int i = 1; i < freq.length; i++) {
 			max = Math.max(max, freq[i] + freq[i - 1]);

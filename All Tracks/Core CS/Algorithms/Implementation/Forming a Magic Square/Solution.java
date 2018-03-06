@@ -16,9 +16,9 @@ import java.util.regex.*;
 
 public class Solution {
 
-    static Scanner sc = new Scanner(System.in);
-
 	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
 
 		int[][] square = new int[3][3];
 		for (int i = 0; i < square.length; i++) {
@@ -26,6 +26,7 @@ public class Solution {
 				square[i][j] = sc.nextInt();
 			}
 		}
+		sc.close();
 		int[][] magicSquare1 = { { 8, 1, 6 }, { 3, 5, 7 }, { 4, 9, 2 } };
 		int[][] magicSquare2 = { { 6, 1, 8 }, { 7, 5, 3 }, { 2, 9, 4 } };
 		int[][] magicSquare3 = { { 4, 9, 2 }, { 3, 5, 7 }, { 8, 1, 6 } };

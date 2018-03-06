@@ -13,10 +13,10 @@ import java.util.regex.*;
 
 
 public class Solution {
-
-    static Scanner sc = new Scanner(System.in);
 	 
 	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
 		
 		int x1 = sc.nextInt();
 		int v1 = sc.nextInt();
