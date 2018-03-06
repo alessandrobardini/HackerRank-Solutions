@@ -15,12 +15,13 @@ import java.util.stream.IntStream;
 
 public class Solution {
 
-	static Scanner sc = new Scanner(System.in);
-
 	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
 
 		int n = sc.nextInt();
 		int m = sc.nextInt();
+		
 
 		ArrayList<Integer> firstSet = new ArrayList<>();
 		ArrayList<Integer> secondSet = new ArrayList<>();
