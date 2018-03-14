@@ -12,9 +12,9 @@ The conversion is possible in three cases:
     helloworld
     5
 
- 	necessaryOperations = 5
- 	We perform 5 additions
- 	The answer is YES
+    necessaryOperations = 5
+    We perform 5 additions
+    The answer is YES
 
 2)  k >= necessaryOperations and (k - necessaryOperations) % 2 == 0:
  	by subtracting 'necessaryOperations' from 'k', we obtain the number of 'dummy operations':
@@ -22,8 +22,8 @@ The conversion is possible in three cases:
  	Since a dummy operation consists of two actions (addition and deletion), we have to check the parity:
  	if the parity is even, the conversion is possible.
 
- 	hellno
- 	hellyes
+    hellno
+    hellyes
  	7
 
  	necessaryOperations = 5
@@ -32,7 +32,7 @@ The conversion is possible in three cases:
 	The answer is YES
 
     hellno
- 	hellyes
+    hellyes
  	4
 
  	necessaryOperations = 5
