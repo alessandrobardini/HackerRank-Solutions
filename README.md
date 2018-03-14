@@ -18,6 +18,9 @@ Solutions and explanations to [HackerRank](https://www.hackerrank.com) problems 
 |[Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem)| [Solution.java](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Circular%20Array%20Rotation/Solution.java) | [Solution.py](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Circular%20Array%20Rotation/Solution.py)
 |[Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem)| [Solution.java](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Extra%20Long%20Factorials/Solution.java) | [Solution.py](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Extra%20Long%20Factorials/Solution.py)
 |[Append and Delete](https://www.hackerrank.com/challenges/append-and-delete/problem)| [Solution.java](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Append%20and%20Delete/Solution.java) | [Solution.py](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Append%20and%20Delete/Solution.py)
+|[Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares/problem)| [Solution.java](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Sherlock%20and%20Squares/Solution.java) | [Solution.py](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Sherlock%20and%20Squares/Solution.py)
+
+
 
 
 
