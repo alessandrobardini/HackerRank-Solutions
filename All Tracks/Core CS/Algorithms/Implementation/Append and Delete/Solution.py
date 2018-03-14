@@ -17,39 +17,39 @@ The conversion is possible in three cases:
     The answer is YES
 
 2)  k >= necessaryOperations and (k - necessaryOperations) % 2 == 0:
- 	by subtracting 'necessaryOperations' from 'k', we obtain the number of 'dummy operations':
- 	a dummy operation is the addition and the instantaneous deletion of the same character (or viceversa).
- 	Since a dummy operation consists of two actions (addition and deletion), we have to check the parity:
- 	if the parity is even, the conversion is possible.
+    by subtracting 'necessaryOperations' from 'k', we obtain the number of 'dummy operations':
+    a dummy operation is the addition and the instantaneous deletion of the same character (or viceversa).
+    Since a dummy operation consists of two actions (addition and deletion), we have to check the parity:
+    if the parity is even, the conversion is possible.
 
     hellno
     hellyes
- 	7
+    7
 
- 	necessaryOperations = 5
- 	k - necessaryOperations = 2 (dummy operations)
- 	We perform 2 necessary deletions, 1 dummy addition, 1 dummy deletion and 3 necessary additions
-	The answer is YES
+    necessaryOperations = 5
+    k - necessaryOperations = 2 (dummy operations)
+    We perform 2 necessary deletions, 1 dummy addition, 1 dummy deletion and 3 necessary additions
+    The answer is YES
 
     hellno
     hellyes
- 	4
+    4
 
- 	necessaryOperations = 5
- 	k - necessaryOperations = 1 (dummy operations)
- 	Since the number of dummy operations is odd, we cannot compensate for a dummy addition/deletion.
-	The answer is NO
+    necessaryOperations = 5
+    k - necessaryOperations = 1 (dummy operations)
+    Since the number of dummy operations is odd, we cannot compensate for a dummy addition/deletion.
+    The answer is NO
 
 3)  k >= len(s) + len(t):
-  	since we can still perform a delete operation on an empty string to get the empty string,
-  	the conversion is possible.
+    since we can still perform a delete operation on an empty string to get the empty string,
+    the conversion is possible.
 
-  	hell
-  	he
-  	10
+    hell
+    he
+    10
 
-  	We perform 5 deletions to obtain the empty string, 3 deletions on the empty string and 2 additions.
-  	The answer is YES
+    We perform 5 deletions to obtain the empty string, 3 deletions on the empty string and 2 additions.
+    The answer is YES
 """
 
 
