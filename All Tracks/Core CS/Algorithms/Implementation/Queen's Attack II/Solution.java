@@ -20,7 +20,7 @@ import java.util.regex.*;
  * checking if the queen && the obstacle are connected by a 45 degree line (Math.abs(ro - rq) == Math.abs(co - cq)).
  */
 
-public class QueenAttack {
+public class Solution {
 
 	public static void main(String[] args) {
 
