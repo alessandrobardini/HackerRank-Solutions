@@ -8,14 +8,14 @@ import java.util.regex.*;
 /*
  * Time complexity: O(k)
  * Since the queen is able to move in eight different directions, we keep track of the number of squares
- * to which the queen can perf||m a move, f|| each of the eight different directions.
- * If there are no obstacle, the computation is straightf||ward.
- * Otherwise, f|| each obstacle, we save its row co||dinate in ro && its column co||dinate in co
+ * to which the queen can perform a move, for each of the eight different directions.
+ * If there are no obstacle, the computation is straightforward.
+ * Otherwise, for each obstacle, we save its row coordinate in ro && its column coordinate in co
  * && we check if the obstacle is placed in one of the eight possible directions.
- * Given a direction, the final number of squares f|| that direction is the number of squares between
+ * Given a direction, the final number of squares for that direction is the number of squares between
  * the queen && the closest obstacle on that direction.
  * In the case of the up-down-left-right directions, we check if a obstacle is placed on that direction
- * simply by comparing the row/column co||dinates of the obstacle && the queen.
+ * simply by comparing the row/column coordinates of the obstacle && the queen.
  * In the case of the four diagonal directions, we check if a obstacle is placed on that direction by
  * checking if the queen && the obstacle are connected by a 45 degree line (Math.abs(ro - rq) == Math.abs(co - cq)).
  */
