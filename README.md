@@ -23,9 +23,7 @@ Solutions and explanations to [HackerRank](https://www.hackerrank.com) problems 
 |[Non Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset/problem)| [Solution.java](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Non%20Divisible%20Subset/Solution.java) | [Solution.py](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Non%20Divisible%20Subset/Solution.py)
 |[Queen's Attack II](https://www.hackerrank.com/challenges/queens-attack-2/problem)| [Solution.java](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Queen's%20Attack%20II/Solution.java) | [Solution.py](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Queen's%20Attack%20II/Solution.py)
 |[ACM ICPC Team](https://www.hackerrank.com/challenges/acm-icpc-team/problem)| [Solution.java](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/ACM%20ICPC%20Team/Solution.java) | [Solution.py](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/ACM%20ICPC%20Team/Solution.py)
-
-
-
+|[Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem)| [Solution.java](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Organizing%20Containers%20of%20Balls/Solution.java) | [Solution.py](https://github.com/alessandrobardini/HackerRank-Solutions/blob/master/All%20Tracks/Core%20CS/Algorithms/Implementation/Organizing%20Containers%20of%20Balls/Solution.py)
 
 
 
