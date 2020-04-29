@@ -29,6 +29,6 @@ if __name__ == '__main__':
     max_value = 0
     for number in array:
         frequency[number] += 1
-    for i in range(1, n):
+    for i in range(1, 100):
         max_value = max(max_value, frequency[i] + frequency[i - 1])
     print(max_value)
